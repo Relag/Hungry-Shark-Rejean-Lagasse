@@ -5,10 +5,10 @@ using UnityEngine;
 public class PlayerShark : MonoBehaviour {
 
     //Values for the shark
-    [SerializeField] private float speed = 3.0f;
+    [SerializeField] private float speed = 2.0f;
     public int level {get; set;}
     public int health { get; set; }
-    private int fishEaten;
+    public int fishEaten { get; set; }
 
     private Vector2 movePosition;
 
@@ -29,21 +29,6 @@ public class PlayerShark : MonoBehaviour {
         transform.position = Vector2.MoveTowards(transform.position, movePosition, speed * Time.deltaTime);
     }
 
-    /* private void OnTriggerEnter(Collider collision) {
-         if (collision.collider.tag == "PoisonFish") {
-             health -= 1;
-             if (health <= 0) {
-                 Gameover();
-             }
-         }
-         else if (collision.collider.tag == "Fish") {
-             EatFish();
-         }
-         else if (collision.collider.tag == "health") {
-             HealDamage();
-         }
-         Debug.Log("Collide");
-     }*/
 
     private void OnTriggerEnter(Collider other) {
         if (other.CompareTag("Fish")) {
@@ -68,10 +53,12 @@ public class PlayerShark : MonoBehaviour {
 
     void HealDamage() {
         Debug.Log("healed damage");
+        health += 1;
     }
 
     void EatFish() {
         Debug.Log("ate fish");
+        fishEaten++;
     }
 
     void Gameover() {
