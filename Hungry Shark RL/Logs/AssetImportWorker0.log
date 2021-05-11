@@ -603,3 +603,243 @@ Received Import Request.
 Start importing Assets/Images/GoodFish.png using Guid(9a871968b12448343af65bf0af189695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbca924f5644dc885e635095bf9fa841') in 0.010331 seconds
   Import took 0.012277 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 195.044146 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e1ade904f8483502412a943970edefa') in 0.008649 seconds
+  Import took 0.010556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 298.018819 seconds.
+  path: Assets/Images/HealthFish.png
+  artifactKey: Guid(7472ba9fdd9845a4bad7b88c83f3059b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/HealthFish.png using Guid(7472ba9fdd9845a4bad7b88c83f3059b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbd19a25492405a1f5a575a409a11cf') in 0.007843 seconds
+  Import took 0.009772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.804665 seconds.
+  path: Assets/Images/HealthFish.png
+  artifactKey: Guid(7472ba9fdd9845a4bad7b88c83f3059b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/HealthFish.png using Guid(7472ba9fdd9845a4bad7b88c83f3059b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef5805ce6b51ecf7bf9f48e57eb590c') in 0.010187 seconds
+  Import took 0.012423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.654205 seconds.
+  path: Assets/Images/HealthFish.png
+  artifactKey: Guid(7472ba9fdd9845a4bad7b88c83f3059b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/HealthFish.png using Guid(7472ba9fdd9845a4bad7b88c83f3059b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc99505ff07da1310e5e911ded56319') in 0.010066 seconds
+  Import took 0.012242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.745211 seconds.
+  path: Assets/Images/HealthFish.png
+  artifactKey: Guid(7472ba9fdd9845a4bad7b88c83f3059b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/HealthFish.png using Guid(7472ba9fdd9845a4bad7b88c83f3059b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7889dcb5b2af577ef07a2bde95bb4b') in 0.009183 seconds
+  Import took 0.011035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.541799 seconds.
+  path: Assets/Images/Materials
+  artifactKey: Guid(426a6b2847a38be4dac0f3f5acfce13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials using Guid(426a6b2847a38be4dac0f3f5acfce13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6219241212dadabc1b53cac70bfe766') in 0.006562 seconds
+  Import took 0.008461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000562 seconds.
+  path: Assets/Images/Materials
+  artifactKey: Guid(426a6b2847a38be4dac0f3f5acfce13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials using Guid(426a6b2847a38be4dac0f3f5acfce13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6219241212dadabc1b53cac70bfe766') in 0.001778 seconds
+  Import took 0.003355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.164846 seconds.
+  path: Assets/Images/Materials/HealthFish.mat
+  artifactKey: Guid(244794b1bee97f6499003661de4ea19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials/HealthFish.mat using Guid(244794b1bee97f6499003661de4ea19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8638d57fc35e45ec6a102e370f1bd45') in 0.056466 seconds
+  Import took 0.058311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.042267 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(2ce9d05b2b656cf42a43712b20fa2567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(2ce9d05b2b656cf42a43712b20fa2567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4819c09cb13ec9b45506d4049939449') in 0.006309 seconds
+  Import took 0.008336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.501710 seconds.
+  path: Assets/Prefabs/Health.prefab
+  artifactKey: Guid(335365095eadfd2468ac39e63ab9ef64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Health.prefab using Guid(335365095eadfd2468ac39e63ab9ef64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e7a2039cf294ce677b97aa67e88c9a') in 0.019688 seconds
+  Import took 0.021906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008621 seconds.
+  path: Assets/Prefabs/Health.prefab
+  artifactKey: Guid(335365095eadfd2468ac39e63ab9ef64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Health.prefab using Guid(335365095eadfd2468ac39e63ab9ef64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e7a2039cf294ce677b97aa67e88c9a') in 0.007444 seconds
+  Import took 0.009169 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000613 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.649 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.6 MB.
+System memory in use after: 60.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1651.
+Total: 1.731700 ms (FindLiveObjects: 0.288500 ms CreateObjectMapping: 0.032400 ms MarkObjects: 1.353900 ms  DeleteObjects: 0.055800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 287.814466 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(c19c80bde6b605d49a93e2841d95c422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(c19c80bde6b605d49a93e2841d95c422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b45d6ec10f594cafb106d190c2600f') in 0.010407 seconds
+  Import took 0.012526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.883382 seconds.
+  path: Assets/Textures/New Render Texture.renderTexture
+  artifactKey: Guid(a1ae0e06462a9504b8b08c6b17b6e831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/New Render Texture.renderTexture using Guid(a1ae0e06462a9504b8b08c6b17b6e831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d2fd82b1d34d6ce2354610617946dc') in 0.035809 seconds
+  Import took 0.038106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.727912 seconds.
+  path: Assets/Images/HealthFish.png
+  artifactKey: Guid(7472ba9fdd9845a4bad7b88c83f3059b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/HealthFish.png using Guid(7472ba9fdd9845a4bad7b88c83f3059b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad33b809259ec918b350d528e7a4b603') in 0.029208 seconds
+  Import took 0.031254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.846605 seconds.
+  path: Assets/Prefabs/HealthFish.prefab
+  artifactKey: Guid(66e82d77aab449445ac594a1193d240c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthFish.prefab using Guid(66e82d77aab449445ac594a1193d240c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2165e23e1538bfd6a26aceec81146b6') in 0.036225 seconds
+  Import took 0.038318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.832131 seconds.
+  path: Assets/Images/GoodFish.png
+  artifactKey: Guid(9a871968b12448343af65bf0af189695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/GoodFish.png using Guid(9a871968b12448343af65bf0af189695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6a03589ffb0446583af5fd67f7090c') in 0.013406 seconds
+  Import took 0.015414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.243772 seconds.
+  path: Assets/Images/BadFish.png
+  artifactKey: Guid(ef8d109ab2fe68d4cbfb9dcdd06969a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/BadFish.png using Guid(ef8d109ab2fe68d4cbfb9dcdd06969a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b0a21d8e6a1b70c1e670d284051d1f') in 0.012856 seconds
+  Import took 0.014857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.304444 seconds.
+  path: Assets/Prefabs/GoodFish.prefab
+  artifactKey: Guid(fdde62d2fe432c34d81def7af5fcc5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GoodFish.prefab using Guid(fdde62d2fe432c34d81def7af5fcc5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc72fd5e53672270745d0592ee4436b') in 0.011105 seconds
+  Import took 0.013069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009061 seconds.
+  path: Assets/Prefabs/GoodFish.prefab
+  artifactKey: Guid(fdde62d2fe432c34d81def7af5fcc5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GoodFish.prefab using Guid(fdde62d2fe432c34d81def7af5fcc5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc72fd5e53672270745d0592ee4436b') in 0.011016 seconds
+  Import took 0.013338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.469872 seconds.
+  path: Assets/Prefabs/BadFish.prefab
+  artifactKey: Guid(0b9428cf4febf6f43a94abff9436f2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BadFish.prefab using Guid(0b9428cf4febf6f43a94abff9436f2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5b8612639aded2a901d19642dc73e5') in 0.014722 seconds
+  Import took 0.016698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003791 seconds.
+  path: Assets/Prefabs/BadFish.prefab
+  artifactKey: Guid(0b9428cf4febf6f43a94abff9436f2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BadFish.prefab using Guid(0b9428cf4febf6f43a94abff9436f2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5b8612639aded2a901d19642dc73e5') in 0.012336 seconds
+  Import took 0.014246 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000724 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.580 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.6 MB.
+System memory in use after: 60.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1659.
+Total: 1.703700 ms (FindLiveObjects: 0.175600 ms CreateObjectMapping: 0.027200 ms MarkObjects: 1.453700 ms  DeleteObjects: 0.045500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.869382 seconds.
+  path: Assets/Prefabs/GoodFish.prefab
+  artifactKey: Guid(fdde62d2fe432c34d81def7af5fcc5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GoodFish.prefab using Guid(fdde62d2fe432c34d81def7af5fcc5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cfe5e69812675f1b7365e90b28ed64f') in 0.041776 seconds
+  Import took 0.045805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.889000 seconds.
+  path: Assets/Prefabs/HealthFish.prefab
+  artifactKey: Guid(66e82d77aab449445ac594a1193d240c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthFish.prefab using Guid(66e82d77aab449445ac594a1193d240c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0683fe3b13d41d9a5255c6a71a564d0') in 0.007516 seconds
+  Import took 0.009743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.635891 seconds.
+  path: Assets/Prefabs/BadFish.prefab
+  artifactKey: Guid(0b9428cf4febf6f43a94abff9436f2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BadFish.prefab using Guid(0b9428cf4febf6f43a94abff9436f2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57eba4e21d587578e9696c0e2f1f1c7') in 0.008995 seconds
+  Import took 0.011086 seconds .
+
