@@ -8,12 +8,12 @@ public class PlayerShark : MonoBehaviour {
     [SerializeField] private float speed = 3.0f;
     public int level {get; set;}
     public int health { get; set; }
-    private int experience;
+    private int fishEaten;
 
     private Vector2 movePosition;
 
     private void Awake() {
-
+        health = 3;
 
     }
 
@@ -29,19 +29,52 @@ public class PlayerShark : MonoBehaviour {
         transform.position = Vector2.MoveTowards(transform.position, movePosition, speed * Time.deltaTime);
     }
 
-    private void OnCollisionEnter(Collision collision) {
-        
+    /* private void OnTriggerEnter(Collider collision) {
+         if (collision.collider.tag == "PoisonFish") {
+             health -= 1;
+             if (health <= 0) {
+                 Gameover();
+             }
+         }
+         else if (collision.collider.tag == "Fish") {
+             EatFish();
+         }
+         else if (collision.collider.tag == "health") {
+             HealDamage();
+         }
+         Debug.Log("Collide");
+     }*/
+
+    private void OnTriggerEnter(Collider other) {
+        if (other.CompareTag("Fish")) {
+            EatFish();
+        }
+        else if (other.CompareTag("PoisonFish")) {
+            TakeDamage();
+        }
+        else if (other.CompareTag("Health")) {
+            HealDamage();
+        }
     }
 
-    void TakeDamage() {
 
+    void TakeDamage() {
+        Debug.Log("took damage");
+        health -= 1;
+        if (health <= 0) {
+            Gameover();
+        }
     }
 
     void HealDamage() {
-
+        Debug.Log("healed damage");
     }
 
-    void LevelUp() {
+    void EatFish() {
+        Debug.Log("ate fish");
+    }
 
+    void Gameover() {
+        Debug.Log("Gameover");
     }
 }
