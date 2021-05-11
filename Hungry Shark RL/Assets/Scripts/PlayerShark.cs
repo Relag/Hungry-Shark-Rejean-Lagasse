@@ -10,6 +10,8 @@ public class PlayerShark : MonoBehaviour {
     public int health { get; set; }
     private int experience;
 
+    private Vector2 movePosition;
+
     private void Awake() {
 
 
@@ -18,7 +20,13 @@ public class PlayerShark : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        
+        //If mouse is clicked set move position to new location
+        if (Input.GetMouseButtonDown(0)) {
+            movePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Debug.Log(movePosition);
+        }
+        //Move the shark
+        transform.position = Vector2.MoveTowards(transform.position, movePosition, speed * Time.deltaTime);
     }
 
     private void OnCollisionEnter(Collision collision) {
