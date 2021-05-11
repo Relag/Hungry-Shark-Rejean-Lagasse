@@ -40,6 +40,8 @@ public class PlayerShark : MonoBehaviour {
         else if (other.CompareTag("Health")) {
             HealDamage();
         }
+
+        other.gameObject.SetActive(false);
     }
 
 
