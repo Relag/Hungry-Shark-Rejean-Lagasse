@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6704260287288983465}
   - component: {fileID: 6310872468916770745}
   - component: {fileID: 1281980097454626471}
+  - component: {fileID: 656610164}
   m_Layer: 0
   m_Name: GoodFish
   m_TagString: Fish
@@ -96,3 +97,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnRate: 0
+--- !u!65 &656610164
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8505355380277266649}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.26, y: 2.09, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}

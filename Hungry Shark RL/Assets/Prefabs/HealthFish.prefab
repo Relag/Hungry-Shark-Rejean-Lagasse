@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2631752885043170069}
   - component: {fileID: 3728478769006089599}
   - component: {fileID: 7610900564467624276}
+  - component: {fileID: 2000215353}
   m_Layer: 0
   m_Name: HealthFish
   m_TagString: Health
@@ -96,3 +97,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnRate: 0
+--- !u!65 &2000215353
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7336361661252983580}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.744469, y: 1.5185041, z: 0.2}
+  m_Center: {x: -0.03726795, y: -0.1142995, z: 0}

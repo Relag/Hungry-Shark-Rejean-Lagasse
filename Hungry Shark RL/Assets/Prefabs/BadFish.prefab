@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7066466436160806704}
   - component: {fileID: 8784309887492301475}
   - component: {fileID: 299082758609833470}
+  - component: {fileID: 612680729}
   m_Layer: 0
   m_Name: BadFish
   m_TagString: PoisonFish
@@ -96,3 +97,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnRate: 0
+--- !u!65 &612680729
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4864264391435950362}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.16756, y: 0.8544088, z: 0.2}
+  m_Center: {x: -0.08841364, y: 0.034828026, z: 0}
