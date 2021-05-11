@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Fish : MonoBehaviour
 {
+    public int spawnRate;
     // Start is called before the first frame update
     void Start()
     {
