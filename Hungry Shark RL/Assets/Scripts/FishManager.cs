@@ -56,6 +56,8 @@ public class FishManager : MonoBehaviour
 
     void EnableFish(Fish fish) {
         fish.timeSinceAppeared = 0f;
+        fish.transform.position = new Vector2(Random.Range(left, right), Random.Range(bottom, top));
         fish.gameObject.SetActive(true);
+        //TODO: Ensure fish do not spawn on top of each other.
     }
 }
