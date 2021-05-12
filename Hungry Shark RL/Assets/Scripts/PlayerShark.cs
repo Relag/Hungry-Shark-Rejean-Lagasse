@@ -58,16 +58,22 @@ public class PlayerShark : MonoBehaviour {
     }
 
     void HealDamage() {
-        Debug.Log("healed damage");
         health += 1;
     }
 
     void EatFish() {
-        Debug.Log("ate fish");
         fishEaten++;
     }
 
     void Gameover() {
-        Debug.Log("Gameover");
+        enabled = false;
+    }
+
+    void Restart() {
+        health = 3;
+        fishEaten = 0;
+        enabled = true;
+        transform.position = new Vector2(0, 0);
+        UIManager.instance.UpdateUI();
     }
 }
