@@ -13,6 +13,6 @@ public class PoisonFish : Fish
     // Update is called once per frame
     void Update()
     {
-        
+        base.Update();
     }
 }

@@ -4,16 +4,23 @@ using UnityEngine;
 
 public class Fish : MonoBehaviour
 {
-    public int spawnRate;
+    public float spawnRate;
+    public float timeSinceAppeared;
+    public float timeTilLeave;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        timeSinceAppeared = 0f; 
     }
 
     // Update is called once per frame
-    void Update()
+    protected void Update()
     {
-        
+        timeSinceAppeared += Time.deltaTime;
+
+        if (timeSinceAppeared > timeTilLeave) {
+            gameObject.SetActive(false);
+        }
     }
 }
