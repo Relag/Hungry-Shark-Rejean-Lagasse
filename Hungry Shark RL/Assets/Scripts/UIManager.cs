@@ -10,6 +10,7 @@ public class UIManager : MonoBehaviour
     public Text score;
     public Text gameOver;
     public PlayerShark player;
+    public Button restartButton;
 
     // Start is called before the first frame update
     void Awake()
@@ -28,5 +29,6 @@ public class UIManager : MonoBehaviour
 
     public void GameOver() {
         gameOver.text = "You ate too many poison fish. You now have a tummy ache. You ate " + player.fishEaten + " fish.";
+        restartButton.gameObject.SetActive(true);
     }
 }

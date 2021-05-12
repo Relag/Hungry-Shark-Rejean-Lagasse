@@ -69,7 +69,7 @@ public class PlayerShark : MonoBehaviour {
         enabled = false;
     }
 
-    void Restart() {
+    public void Restart() {
         health = 3;
         fishEaten = 0;
         enabled = true;
