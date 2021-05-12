@@ -168,6 +168,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcc51fdf3ac6e654b99a302e9e7aeb87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &638021406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 638021408}
+  - component: {fileID: 638021407}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &638021407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638021406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58a92d0137b104144b60b94508e0eb38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: {fileID: 938738382}
+  score: {fileID: 786281946}
+  player: {fileID: 392267320}
+--- !u!4 &638021408
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638021406}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 476.8939, y: 539.7992, z: 35.42658}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &656610167 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1281980097454626471, guid: fdde62d2fe432c34d81def7af5fcc5ae, type: 3}
@@ -336,13 +382,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 'Score: 0'
 --- !u!222 &786281947
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -415,13 +461,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 'Health: 3'
 --- !u!222 &938738383
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -868,6 +914,10 @@ PrefabInstance:
     - target: {fileID: 3177214620205643668, guid: c1798281c14ffb647b4d0c2d3e8e6d70, type: 3}
       propertyPath: m_Name
       value: shark_modeling
+      objectReference: {fileID: 0}
+    - target: {fileID: 3177214620205643668, guid: c1798281c14ffb647b4d0c2d3e8e6d70, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1798281c14ffb647b4d0c2d3e8e6d70, type: 3}

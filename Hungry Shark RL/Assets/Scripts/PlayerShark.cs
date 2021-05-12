@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
 public class PlayerShark : MonoBehaviour {
 
     //Values for the shark
@@ -9,6 +11,7 @@ public class PlayerShark : MonoBehaviour {
     public int level {get; set;}
     public int health { get; set; }
     public int fishEaten { get; set; }
+    
 
     private Vector2 movePosition;
 
@@ -42,6 +45,7 @@ public class PlayerShark : MonoBehaviour {
         }
 
         other.gameObject.SetActive(false);
+        UIManager.instance.UpdateUI();
     }
 
 
