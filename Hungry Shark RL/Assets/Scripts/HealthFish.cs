@@ -7,13 +7,13 @@ public class HealthFish : Fish
     // Start is called before the first frame update
     void Start()
     {
-        timeTilLeave = 6.0f;
+        timeTilLeave = 3.0f;
+        spawnRate = 15f;
     }
 
     // Update is called once per frame
-    void Update()
+    new void Update()
     {
         base.Update();
-        Debug.Log(timeTilLeave + " " + timeSinceAppeared);
     }
 }

@@ -9,11 +9,12 @@ public class GoodFish : Fish
     // Start is called before the first frame update
     void Start()
     {
-        timeTilLeave = 3.0f;
+        timeTilLeave = 5.0f;
+        spawnRate = 5f;
     }
 
     // Update is called once per frame
-    void Update()
+    new void Update()
     {
         base.Update();
     }

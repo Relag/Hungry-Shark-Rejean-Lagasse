@@ -7,11 +7,12 @@ public class PoisonFish : Fish
     // Start is called before the first frame update
     void Start()
     {
-        
+        timeTilLeave = 6.0f;
+        spawnRate = 10f;
     }
 
     // Update is called once per frame
-    void Update()
+    new void Update()
     {
         base.Update();
     }
