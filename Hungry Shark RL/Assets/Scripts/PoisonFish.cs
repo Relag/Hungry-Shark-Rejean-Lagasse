@@ -8,7 +8,7 @@ public class PoisonFish : Fish
     void Start()
     {
         timeTilLeave = 6.0f;
-        spawnRate = 10f;
+        spawnRate = 4f;
     }
 
     // Update is called once per frame
