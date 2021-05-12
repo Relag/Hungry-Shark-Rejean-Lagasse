@@ -18,7 +18,7 @@ public class UIManager : MonoBehaviour
         instance = this;
     }
 
-    // Update is called once per frame
+    //Set UI elements upon player collision
     public void UpdateUI()
     {
         health.text = "Health: " + player.health;

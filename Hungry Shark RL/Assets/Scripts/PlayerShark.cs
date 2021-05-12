@@ -43,7 +43,7 @@ public class PlayerShark : MonoBehaviour {
         else if (other.CompareTag("Health")) {
             HealDamage();
         }
-
+        //Disable other game object and update UI singleton
         other.gameObject.SetActive(false);
         UIManager.instance.UpdateUI();
     }
