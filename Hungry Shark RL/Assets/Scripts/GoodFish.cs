@@ -10,7 +10,7 @@ public class GoodFish : Fish
     void Start()
     {
         timeTilLeave = 5.0f;
-        spawnRate = 5f;
+        spawnRate = 1f;
     }
 
     // Update is called once per frame
